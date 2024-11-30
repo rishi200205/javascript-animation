@@ -3,9 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Save Balloon </title>
+  <style>
+    body{
+      margin: 0; 
+      overflow: hidden;
+      display: flex; justify-content: center; 
+      align-items: center; height: 100vh; 
+      background-color: #000; 
+      canvas {
+        border: 1px solid #fff; 
+        background-image: url(bg.jpg);
+        border: 5px solid white;
+      }
+    }
+  </style>
 </head>
 <body>
-  
+  <canvas id="canvas" width="800" height="600"></canvas>
+  <script src="/js/game.js"> </script>
 </body>
 </html>
